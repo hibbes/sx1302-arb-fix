@@ -1,9 +1,16 @@
 # sx1302-arb-fix — A live-validated fix for the SX1302 ARB-MCU busy-spin RX-stall
 
-> **Status:** Patch deployed on a production gateway 2026-05-02, **3.5 days
-> stuck-free at the time of release** (was 1–5 stalls / 24 h before).
-> Validation continues; this is reported as field-evidence, not as a final
-> proof.
+> **Status:** Patch deployed on a single hobbyist gateway 2026-05-02,
+> **3.5 days stuck-free at the time of release** (was 1–5 stalls / 24 h
+> before). This is one Pi, one HAT, one location — reported as
+> field-evidence, not as a final proof. Independent reproduction welcome.
+
+> **A note on confidence:** I'm a teacher with a single test gateway, not
+> a Semtech engineer. There is a real possibility that this whole
+> investigation is solving a problem that doesn't exist for anyone else,
+> or that there is a documented mitigation in an application note I
+> haven't read. If you find such a note, please open an issue — I'll add
+> a `RESOLVED:` block at the top of this README and we'll all move on.
 
 ## What is this?
 
@@ -104,12 +111,17 @@ the original parity scheme (verified: `AGC_PARITY_ERROR = 0`,
 6. Verify with `probe_arb_internals` again — both parity bits should be 0,
    die-temp unchanged, ackr=100%.
 
-## Coordinated disclosure
+## Why public from day one
 
-We have notified Semtech privately on **TODO-DATE** and will keep this
-repository read-only until **TODO-DATE + 60 days** to give them a chance to
-publish an upstream fix. After that — or earlier, with their consent — full
-write access opens for community contributions.
+This is an operational bug in commodity hardware, not a security
+vulnerability. There is no embargo and no responsible-disclosure window —
+the more eyes on the methodology, the faster we'll know whether other
+operators see the same pathology or whether our setup is unusual.
+
+If anyone from Semtech (or another vendor of SX1302-based equipment) has
+context on `AGC_STATUS = 0x14`, on a documented mitigation we missed, or
+on an upstream HAL fix already in flight, please open an issue and I'll
+update this README accordingly.
 
 ## Legal
 
