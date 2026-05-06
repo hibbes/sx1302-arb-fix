@@ -111,17 +111,13 @@ the original parity scheme (verified: `AGC_PARITY_ERROR = 0`,
 6. Verify with `probe_arb_internals` again — both parity bits should be 0,
    die-temp unchanged, ackr=100%.
 
-## Why public from day one
+## Status
 
-This is an operational bug in commodity hardware, not a security
-vulnerability. There is no embargo and no responsible-disclosure window —
-the more eyes on the methodology, the faster we'll know whether other
-operators see the same pathology or whether our setup is unusual.
-
-If anyone from Semtech (or another vendor of SX1302-based equipment) has
-context on `AGC_STATUS = 0x14`, on a documented mitigation we missed, or
-on an upstream HAL fix already in flight, please open an issue and I'll
-update this README accordingly.
+This repository is currently **private** — shared with Semtech for
+review. Should the SX1302 ever reach end-of-life status with no
+upstream fix in sight, we may open it publicly so that other operators
+running the same silicon have a documented workaround. Until then,
+access is by request.
 
 ## Legal
 
