@@ -1,0 +1,300 @@
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: INFO: [down] PULL_ACK received in 39 ms
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: INFO: [down] PULL_ACK received in 40 ms
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: ##### 2026-04-29 16:51:17 GMT #####
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: ### [UPSTREAM] ###
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: # RF packets received by concentrator: 0
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: # RF packets forwarded: 0 (0 bytes)
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: # PUSH_DATA datagrams sent: 1 (125 bytes)
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: # PUSH_DATA acknowledged: 100.00%
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: ### [DOWNSTREAM] ###
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: # PULL_DATA sent: 3 (100.00% acknowledged)
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: # RF packets sent to concentrator: 0 (0 bytes)
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: # TX errors: 0
+Apr 29 18:51:17 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (collision packet): 0.00% (req:1, rej:0)
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (collision beacon): 0.00% (req:1, rej:0)
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (too late): 0.00% (req:1, rej:0)
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (too early): 0.00% (req:1, rej:0)
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: ### SX1302 Status ###
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # SX1302 counter (INST): 2124131054
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # SX1302 counter (PPS):  0
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # BEACON queued: 0
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # BEACON sent so far: 0
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # BEACON rejected: 0
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: ### [JIT] ###
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: #--------
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: ### [GPS] ###
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # Invalid time reference (age: 1777481477 sec)
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # no valid GPS coordinates available yet
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: ### Concentrator temperature: 46 C ###
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: ##### END #####
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: JSON up: {"stat":{"time":"2026-04-29 16:51:17 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":45.6}}
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: INFO: [up] PUSH_ACK received in 40 ms
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: INFO: [down] PULL_ACK received in 40 ms
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: INFO: [down] PULL_ACK received in 41 ms
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: INFO: [down] PULL_ACK received in 40 ms
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: ##### 2026-04-29 16:51:47 GMT #####
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: ### [UPSTREAM] ###
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # RF packets received by concentrator: 0
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # RF packets forwarded: 0 (0 bytes)
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # PUSH_DATA datagrams sent: 1 (125 bytes)
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # PUSH_DATA acknowledged: 100.00%
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: ### [DOWNSTREAM] ###
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # PULL_DATA sent: 3 (100.00% acknowledged)
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # RF packets sent to concentrator: 0 (0 bytes)
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # TX errors: 0
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (collision packet): 0.00% (req:1, rej:0)
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (collision beacon): 0.00% (req:1, rej:0)
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (too late): 0.00% (req:1, rej:0)
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (too early): 0.00% (req:1, rej:0)
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: ### SX1302 Status ###
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # SX1302 counter (INST): 2154133443
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # SX1302 counter (PPS):  0
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # BEACON queued: 0
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # BEACON sent so far: 0
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # BEACON rejected: 0
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: ### [JIT] ###
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: #--------
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: ### [GPS] ###
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # Invalid time reference (age: 1777481507 sec)
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: # no valid GPS coordinates available yet
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: ### Concentrator temperature: 46 C ###
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: ##### END #####
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: JSON up: {"stat":{"time":"2026-04-29 16:51:47 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":45.6}}
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: INFO: [up] PUSH_ACK received in 41 ms
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: INFO: [down] PULL_ACK received in 40 ms
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:51:58 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:11 lorawan-gw systemd[1]: Stopping lora-pkt-fwd.service - LoRa Packet Forwarder (Semtech UDP, Waveshare SX1302 HAT)...
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: INFO: [down] PULL_ACK received in 40 ms
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: ##### 2026-04-29 16:52:11 GMT #####
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: ### [UPSTREAM] ###
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: # RF packets received by concentrator: 0
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: # RF packets forwarded: 0 (0 bytes)
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: # PUSH_DATA datagrams sent: 1 (125 bytes)
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: # PUSH_DATA acknowledged: 100.00%
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: ### [DOWNSTREAM] ###
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: # PULL_DATA sent: 2 (100.00% acknowledged)
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: # RF packets sent to concentrator: 0 (0 bytes)
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: # TX errors: 0
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (collision packet): 0.00% (req:1, rej:0)
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (collision beacon): 0.00% (req:1, rej:0)
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (too late): 0.00% (req:1, rej:0)
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (too early): 0.00% (req:1, rej:0)
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: ### SX1302 Status ###
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: # SX1302 counter (INST): 2178234537
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: # SX1302 counter (PPS):  0
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: # BEACON queued: 0
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: # BEACON sent so far: 0
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: # BEACON rejected: 0
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: ### [JIT] ###
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: #--------
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: ### [GPS] ###
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: # Invalid time reference (age: 1777481531 sec)
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: # no valid GPS coordinates available yet
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: ### Concentrator temperature: 46 C ###
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: ##### END #####
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: INFO: End of upstream thread
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: INFO: End of JIT thread
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: INFO: End of downstream thread
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: INFO: GPS closed successfully
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: INFO: End of GPS thread
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: Closing SPI communication interface
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: INFO: concentrator stopped successfully
+Apr 29 18:52:11 lorawan-gw lora_pkt_fwd[4258]: INFO: Exiting packet forwarder program
+Apr 29 18:52:12 lorawan-gw systemd[1]: lora-pkt-fwd.service: Deactivated successfully.
+Apr 29 18:52:12 lorawan-gw systemd[1]: Stopped lora-pkt-fwd.service - LoRa Packet Forwarder (Semtech UDP, Waveshare SX1302 HAT).
+Apr 29 18:52:12 lorawan-gw systemd[1]: lora-pkt-fwd.service: Consumed 38min 25.324s CPU time.
+Apr 29 18:52:13 lorawan-gw systemd[1]: Starting lora-pkt-fwd.service - LoRa Packet Forwarder (Semtech UDP, Waveshare SX1302 HAT)...
+Apr 29 18:52:16 lorawan-gw systemd[1]: lora-pkt-fwd.service: Found left-over process 8216 (gpioset) in control group while starting unit. Ignoring.
+Apr 29 18:52:16 lorawan-gw systemd[1]: lora-pkt-fwd.service: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Apr 29 18:52:16 lorawan-gw systemd[1]: lora-pkt-fwd.service: Found left-over process 8220 (gpioset) in control group while starting unit. Ignoring.
+Apr 29 18:52:16 lorawan-gw systemd[1]: lora-pkt-fwd.service: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Apr 29 18:52:16 lorawan-gw systemd[1]: Started lora-pkt-fwd.service - LoRa Packet Forwarder (Semtech UDP, Waveshare SX1302 HAT).
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: *** Packet Forwarder ***
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: Version: 2.1.0
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: *** SX1302 HAL library version info ***
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: Version: 2.1.0;
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: ***
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Little endian host
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: found configuration file /home/pi/sx1302_hal/packet_forwarder/global_conf.json, parsing it
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: /home/pi/sx1302_hal/packet_forwarder/global_conf.json does contain a JSON object named SX130x_conf, parsing SX1302 parameters
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: com_type SPI, com_path /dev/spidev0.0, lorawan_public 1, clksrc 0, full_duplex 0
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: antenna_gain 0 dBi
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Configuring legacy timestamp
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Configuring Tx Gain LUT for rf_chain 0 with 16 indexes for sx1250
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: radio 0 enabled (type SX1250), center frequency 867500000, RSSI offset -215.399994, tx enabled 1, single input mode 0
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: radio 1 enabled (type SX1250), center frequency 868500000, RSSI offset -215.399994, tx enabled 0, single input mode 0
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Lora multi-SF channel 0>  radio 1, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Lora multi-SF channel 1>  radio 1, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Lora multi-SF channel 2>  radio 1, IF 0 Hz, 125 kHz bw, SF 5 to 12
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Lora multi-SF channel 3>  radio 0, IF -400000 Hz, 125 kHz bw, SF 5 to 12
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Lora multi-SF channel 4>  radio 0, IF -200000 Hz, 125 kHz bw, SF 5 to 12
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Lora multi-SF channel 5>  radio 0, IF 0 Hz, 125 kHz bw, SF 5 to 12
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Lora multi-SF channel 6>  radio 0, IF 200000 Hz, 125 kHz bw, SF 5 to 12
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Lora multi-SF channel 7>  radio 0, IF 400000 Hz, 125 kHz bw, SF 5 to 12
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Lora std channel> radio 1, IF -200000 Hz, 250000 Hz bw, SF 7, Explicit header
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: FSK channel> radio 1, IF 300000 Hz, 125000 Hz bw, 50000 bps datarate
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: /home/pi/sx1302_hal/packet_forwarder/global_conf.json does contain a JSON object named gateway_conf, parsing gateway parameters
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: gateway MAC address is configured to 0016C001F103EDE3
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: server hostname or IP address is configured to "127.0.0.1"
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: upstream port is configured to "1700"
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: downstream port is configured to "1700"
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: downstream keep-alive interval is configured to 10 seconds
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: statistics display interval is configured to 30 seconds
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: upstream PUSH_DATA time-out is configured to 100 ms
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: packets received with a valid CRC will be forwarded
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: packets received with a CRC error will NOT be forwarded
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: packets received with no CRC will NOT be forwarded
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: GPS serial port path is configured to "/dev/ttyAMA0"
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Reference latitude is configured to 0.000000 deg
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Reference longitude is configured to 0.000000 deg
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Reference altitude is configured to 0 meters
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Beaconing period is configured to 0 seconds
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Beaconing signal will be emitted at 869525000 Hz
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Beaconing datarate is set to SF9
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Beaconing modulation bandwidth is set to 125000Hz
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Beaconing TX power is set to 14dBm
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Beaconing information descriptor is set to 0
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: /home/pi/sx1302_hal/packet_forwarder/global_conf.json does contain a JSON object named debug_conf, parsing debug parameters
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: got 2 debug reference payload
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: reference payload ID 0 is 0xCAFE1234
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: reference payload ID 1 is 0xCAFE2345
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: setting debug log file name to loragw_hal.log
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: [main] TTY port /dev/ttyAMA0 open for GPS synchronization
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: Opening SPI communication interface
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: Note: chip version is 0x10 (v1.0)
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: using legacy timestamp
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: LoRa Service modem: configuring preamble size to 8 symbols
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: ARB: dual demodulation disabled for all SF
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: found temperature sensor on port 0x39
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: [main] concentrator started, packet can now be received
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: concentrator EUI: 0x0016c001f103ede3
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: [down] PULL_ACK received in 40 ms
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: ##### 2026-04-29 16:52:25 GMT #####
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: ### [UPSTREAM] ###
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: # RF packets received by concentrator: 0
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+Apr 29 18:52:25 lorawan-gw systemd[1]: Stopping lora-pkt-fwd.service - LoRa Packet Forwarder (Semtech UDP, Waveshare SX1302 HAT)...
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: # RF packets forwarded: 0 (0 bytes)
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: # PUSH_DATA datagrams sent: 0 (0 bytes)
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: # PUSH_DATA acknowledged: 0.00%
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: ### [DOWNSTREAM] ###
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: # PULL_DATA sent: 1 (100.00% acknowledged)
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: # RF packets sent to concentrator: 0 (0 bytes)
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: # TX errors: 0
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: ### SX1302 Status ###
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: # SX1302 counter (INST): 4008410
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: # SX1302 counter (PPS):  0
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: # BEACON queued: 0
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: # BEACON sent so far: 0
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: # BEACON rejected: 0
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: ### [JIT] ###
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: #--------
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: ### [GPS] ###
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: # Invalid time reference (age: 1777481545 sec)
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: # no valid GPS coordinates available yet
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: ### Concentrator temperature: 46 C ###
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: ##### END #####
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: End of upstream thread
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: End of JIT thread
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: End of GPS thread
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: End of downstream thread
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: GPS closed successfully
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: Closing SPI communication interface
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: concentrator stopped successfully
+Apr 29 18:52:25 lorawan-gw lora_pkt_fwd[8223]: INFO: Exiting packet forwarder program
+Apr 29 18:52:25 lorawan-gw systemd[1]: lora-pkt-fwd.service: Deactivated successfully.
+Apr 29 18:52:25 lorawan-gw systemd[1]: Stopped lora-pkt-fwd.service - LoRa Packet Forwarder (Semtech UDP, Waveshare SX1302 HAT).
+Apr 29 18:52:25 lorawan-gw systemd[1]: lora-pkt-fwd.service: Consumed 1.083s CPU time.

@@ -1,0 +1,200 @@
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: INFO: [down] PULL_ACK received in 40 ms
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: INFO: [down] PULL_ACK received in 40 ms
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: INFO: [down] PULL_ACK received in 40 ms
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: ##### 2026-04-29 12:52:16 GMT #####
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: ### [UPSTREAM] ###
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: # RF packets received by concentrator: 0
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: # RF packets forwarded: 0 (0 bytes)
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: # PUSH_DATA datagrams sent: 1 (125 bytes)
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: # PUSH_DATA acknowledged: 100.00%
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: ### [DOWNSTREAM] ###
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: # PULL_DATA sent: 3 (100.00% acknowledged)
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: # RF packets sent to concentrator: 0 (0 bytes)
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: # TX errors: 0
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (collision packet): 0.00% (req:1, rej:0)
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (collision beacon): 0.00% (req:1, rej:0)
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (too late): 0.00% (req:1, rej:0)
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (too early): 0.00% (req:1, rej:0)
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: ### SX1302 Status ###
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: # SX1302 counter (INST): 667829045
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: # SX1302 counter (PPS):  0
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: # BEACON queued: 0
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: # BEACON sent so far: 0
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: # BEACON rejected: 0
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: ### [JIT] ###
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: #--------
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: ### [GPS] ###
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: # Invalid time reference (age: 1777467136 sec)
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: # no valid GPS coordinates available yet
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: ### Concentrator temperature: 41 C ###
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: ##### END #####
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: JSON up: {"stat":{"time":"2026-04-29 12:52:16 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":41.2}}
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: INFO: [up] PUSH_ACK received in 40 ms
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: INFO: [down] PULL_ACK received in 41 ms
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: INFO: [down] PULL_ACK received in 40 ms
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: INFO: [down] PULL_ACK received in 39 ms
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:52:43 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: ##### 2026-04-29 12:52:46 GMT #####
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: ### [UPSTREAM] ###
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # RF packets received by concentrator: 0
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # RF packets forwarded: 0 (0 bytes)
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # PUSH_DATA datagrams sent: 1 (125 bytes)
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # PUSH_DATA acknowledged: 100.00%
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: ### [DOWNSTREAM] ###
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # PULL_DATA sent: 3 (100.00% acknowledged)
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # RF packets sent to concentrator: 0 (0 bytes)
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # TX errors: 0
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (collision packet): 0.00% (req:1, rej:0)
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (collision beacon): 0.00% (req:1, rej:0)
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (too late): 0.00% (req:1, rej:0)
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (too early): 0.00% (req:1, rej:0)
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: ### SX1302 Status ###
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # SX1302 counter (INST): 697831384
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # SX1302 counter (PPS):  0
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # BEACON queued: 0
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # BEACON sent so far: 0
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # BEACON rejected: 0
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: ### [JIT] ###
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: #--------
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: ### [GPS] ###
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # Invalid time reference (age: 1777467166 sec)
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # no valid GPS coordinates available yet
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: ### Concentrator temperature: 41 C ###
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: ##### END #####
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: JSON up: {"stat":{"time":"2026-04-29 12:52:46 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":41.2}}
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: INFO: [up] PUSH_ACK received in 85 ms
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: INFO: [down] PULL_ACK received in 40 ms
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: INFO: [down] PULL_ACK received in 40 ms
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: INFO: [down] PULL_ACK received in 40 ms
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: ##### 2026-04-29 12:53:16 GMT #####
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: ### [UPSTREAM] ###
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # RF packets received by concentrator: 0
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # RF packets forwarded: 0 (0 bytes)
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # PUSH_DATA datagrams sent: 1 (125 bytes)
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # PUSH_DATA acknowledged: 100.00%
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: ### [DOWNSTREAM] ###
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # PULL_DATA sent: 3 (100.00% acknowledged)
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # PULL_RESP(onse) datagrams received: 0 (0 bytes)
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # RF packets sent to concentrator: 0 (0 bytes)
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # TX errors: 0
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (collision packet): 0.00% (req:1, rej:0)
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (collision beacon): 0.00% (req:1, rej:0)
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (too late): 0.00% (req:1, rej:0)
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # TX rejected (too early): 0.00% (req:1, rej:0)
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: ### SX1302 Status ###
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # SX1302 counter (INST): 727833753
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # SX1302 counter (PPS):  0
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # BEACON queued: 0
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # BEACON sent so far: 0
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # BEACON rejected: 0
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: ### [JIT] ###
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: #--------
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: src/jitqueue.c:440:jit_print_queue(): INFO: [jit] queue is empty
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: ### [GPS] ###
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # Invalid time reference (age: 1777467196 sec)
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: # no valid GPS coordinates available yet
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: ### Concentrator temperature: 41 C ###
+Apr 29 14:53:16 lorawan-gw lora_pkt_fwd[4258]: ##### END #####
+Apr 29 14:54:09 lorawan-gw lora_pkt_fwd[4258]: JSON up: {"stat":{"time":"2026-04-29 12:53:16 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0,"temp":41.2}}
+Apr 29 14:54:09 lorawan-gw lora_pkt_fwd[4258]: INFO: [up] PUSH_ACK received in 43 ms
+Apr 29 14:54:09 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS
+Apr 29 14:54:09 lorawan-gw lora_pkt_fwd[4258]: WARNING: [gps] could not get GPS time from GPS

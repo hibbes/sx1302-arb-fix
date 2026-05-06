@@ -1,0 +1,23 @@
+# Build artifacts
+*.o
+*.a
+*.so
+
+# Local-only firmware blobs (not redistributed — get them from Lora-net/sx1302_hal)
+firmware/
+*.var
+*.bin
+
+# Disassembly outputs (derivative work, do not commit)
+*.dasm
+disassembly/
+
+# Local-only patched binaries
+*_patched*
+*.patched
+
+# Editor/OS noise
+*.swp
+.DS_Store
+__pycache__/
+*.pyc

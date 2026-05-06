@@ -1,0 +1,52 @@
+=== forensics started at 2026-04-29 16:52:20 UTC ===
+=== uname ===
+Linux lorawan-gw 6.12.75+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64 GNU/Linux
+=== uptime ===
+ 18:52:20 up 10:55,  0 users,  load average: 0.09, 0.40, 0.60
+=== systemctl status (kompakt) ===
+--- lora-pkt-fwd ---
+MainPID=8223
+NRestarts=0
+ActiveState=active
+SubState=running
+ActiveEnterTimestamp=Wed 2026-04-29 18:52:16 CEST
+--- lora-udp-duplicator ---
+MainPID=776
+NRestarts=0
+ActiveState=active
+SubState=running
+ActiveEnterTimestamp=Wed 2026-04-29 07:55:53 CEST
+--- lora-dashboard ---
+MainPID=835
+NRestarts=0
+ActiveState=active
+SubState=running
+ActiveEnterTimestamp=Wed 2026-04-29 07:55:55 CEST
+=== ss UDP 1700/1701 + TCP 8080 ===
+UNCONN 0      0          127.0.0.1:1700       0.0.0.0:*    users:(("python",pid=776,fd=3))     
+UNCONN 0      0          127.0.0.1:1701       0.0.0.0:*    users:(("python",pid=835,fd=9))     
+LISTEN 0      2048                       0.0.0.0:8080       0.0.0.0:*    users:(("python",pid=835,fd=10))        
+=== /proc/net/udp (alle, mit rxq/txq) ===
+   sl  local_address rem_address   st tx_queue rx_queue tr tm->when retrnsmt   uid  timeout inode ref pointer drops            
+  119: C8C9030A:DF59 80D7223F:06A4 01 00000000:00000000 00:00000000 00000000   103        0 5800 2 000000005d446290 0          
+  219: 0100007F:1FBD 00000000:0000 07 00000000:00000000 00:00000000 00000000   985        0 8792 2 00000000fe5a9480 0          
+  354: CAC9030A:0044 0100000A:0043 01 00000000:00000000 00:00000000 00000000     0        0 176358 2 00000000a0a48535 0        
+  354: C8C9030A:0044 0100000A:0043 01 00000000:00000000 00:00000000 00000000     0        0 5680 2 00000000b74ad9e7 0          
+  450: 0100007F:06A4 00000000:0000 07 00000000:00000000 00:00000000 00000000   103        0 5799 2 0000000030c54c63 0          
+  451: 0100007F:06A5 00000000:0000 07 00000000:00000000 00:00000000 00000000   103        0 8442 2 00000000a77a0264 0          
+  455: 00000000:A2A9 00000000:0000 07 00000000:00000000 00:00000000 00000000     0        0 8451 2 0000000006e92b63 0          
+  466: 0100007F:CAB4 0100007F:06A4 01 00000000:00000000 00:00000000 00000000     0        0 182839 2 00000000cc917a70 0        
+  477: 0100007F:C2BF 0100007F:06A4 01 00000000:00000000 00:00000000 00000000     0        0 182838 2 00000000d1951d0f 0        
+=== packet_forwarder PID memory + threads ===
+State:	S (sleeping)
+VmSize:	    3180 kB
+VmRSS:	    1940 kB
+Threads:	1
+voluntary_ctxt_switches:	22
+nonvoluntary_ctxt_switches:	14
+Open FDs: 7
+=== dmesg letzte 4h gefiltert (spi/gpio/lora/sx/oom/error/warn) ===
+=== /proc/loadavg ===
+0.09 0.40 0.60 5/289 8264
+=== /proc/sys/kernel/random/entropy_avail ===
+256
