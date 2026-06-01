@@ -101,28 +101,45 @@ the original parity scheme (verified: `AGC_PARITY_ERROR = 0`,
 
 ## How to apply (on your own gateway)
 
-1. Read `docs/12_arb_busy_loop_bug_candidate.md` and confirm symptoms match.
-2. Build the analysis tools: `cd analysis && make` (TODO: write Makefile).
-3. `analysis/probe_arb_internals` against your live gateway → confirm
+The C tools link against `libloragw` from your `sx1302_hal` build. Point the
+Makefile at it and build:
+
+```sh
+cd analysis
+make LIBLORAGW=/path/to/sx1302_hal/libloragw
+```
+
+1. Read `docs/12_arb_busy_loop_bug_candidate.md` and confirm your symptoms match.
+2. Run `sudo ./probe_arb_internals` against your live gateway and confirm
    `S0_ARB_DEBUG_STS_*` shows the suspected steady-state.
-4. Apply the patch via `analysis/reversible_patch arb 0x04d6=goto:0x0404`
-   (TODO: finish CLI of reversible_patch).
-5. Reload via `analysis/reload_mem arb path/to/arb_fw_patched.bin`.
-6. Verify with `probe_arb_internals` again — both parity bits should be 0,
-   die-temp unchanged, ackr=100%.
+3. Encode the 4-slot escape patch from `docs/15_arb_fw_patch_strategy_a.md`
+   into a byte-level patch file of `<hex_addr> <hex_byte>` lines (use
+   `patch_encoder.py` for the instruction-to-SRAM encoding).
+4. Apply it with rollback safety:
+   `sudo ./reversible_patch arb apply patch.txt backup.txt`
+   (this halts the MCU, backs up the original bytes, writes, verifies
+   byte-for-byte, and auto-restores on any mismatch).
+5. Verify with `sudo ./probe_arb_internals` again: both parity bits should
+   read 0, die-temp unchanged, ackr=100%.
+
+> Alternative route: patch the on-disk `arb_fw.bin` and reload the whole blob
+> via `sudo ./reload_mem arb arb_fw_patched.bin`.
+
+> **Not yet built:** a convenience CLI that assembles patches inline
+> (`reversible_patch arb 0x04d6=goto:0x0404`) instead of a byte-level patch
+> file. The tool above is fully functional via the patch file; the inline
+> assembler is a welcome PR.
 
 ## Status
 
-**Public.** This material was first shared privately with Semtech
-(support case #72537). Semtech confirmed that (1) there is no published
-application note or errata for this stuck-state, (2) `AGC_STATUS = 0x14`
-is not documented in their public HAL as a healthy or pathological state,
-and (3) they have no comparable reports on record. As a community/hobbyist
-use case they declined to provide in-depth support or to review this
-tooling, and recommended engaging the open-source community via
-`Lora-net/sx1302_hal` and the TTN forums. This repository is published
-openly on that recommendation, so that other operators running the same
-silicon have a documented workaround.
+**Public.** I first reported this bug to Semtech privately (support case
+#72537). They confirmed that (1) there is no published application note or
+errata for this stuck-state, (2) `AGC_STATUS = 0x14` is not documented in
+their public HAL as a healthy or pathological state, and (3) they have no
+comparable reports on record. They recommended engaging the open-source
+community via `Lora-net/sx1302_hal`, and this repository
+is published openly on that recommendation, so that other operators running
+the same silicon have a documented workaround.
 
 ## Legal
 
@@ -147,3 +164,10 @@ contribution arrangement, please contact us.
 - The AmbaSat-1 community whose unbroken transmission stream made every
   RX-stall trivially reproducible
 - gputils for `gpdasm`
+- **Anthropic's Claude (Opus)** — used extensively as an analysis and
+  engineering assistant for the PIC16 disassembly cross-checking, cracking
+  the SX1302 SRAM parity algorithm, locating the busy-spin, designing the
+  counter-bounded escape patch, and writing the tooling in `analysis/`. All
+  hardware operation, live validation on the gateway, and the final review
+  and decisions are the author's. Noted here in the interest of transparency
+  about AI assistance.
