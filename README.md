@@ -1,7 +1,7 @@
 # sx1302-arb-fix — A live-validated fix for the SX1302 ARB-MCU busy-spin RX-stall
 
 > **Status:** Patch deployed on a single hobbyist gateway 2026-05-02,
-> **3.5 days stuck-free at the time of release** (was 1–5 stalls / 24 h
+> **~4 weeks in production (since 2026-05-02) with no recurrence of the stall observed** (was 1–5 stalls / 24 h
 > before). This is one Pi, one HAT, one location — reported as
 > field-evidence, not as a final proof. Independent reproduction welcome.
 
