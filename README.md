@@ -113,11 +113,16 @@ the original parity scheme (verified: `AGC_PARITY_ERROR = 0`,
 
 ## Status
 
-This repository is currently **private** — shared with Semtech for
-review. Should the SX1302 ever reach end-of-life status with no
-upstream fix in sight, we may open it publicly so that other operators
-running the same silicon have a documented workaround. Until then,
-access is by request.
+**Public.** This material was first shared privately with Semtech
+(support case #72537). Semtech confirmed that (1) there is no published
+application note or errata for this stuck-state, (2) `AGC_STATUS = 0x14`
+is not documented in their public HAL as a healthy or pathological state,
+and (3) they have no comparable reports on record. As a community/hobbyist
+use case they declined to provide in-depth support or to review this
+tooling, and recommended engaging the open-source community via
+`Lora-net/sx1302_hal` and the TTN forums. This repository is published
+openly on that recommendation, so that other operators running the same
+silicon have a documented workaround.
 
 ## Legal
 
